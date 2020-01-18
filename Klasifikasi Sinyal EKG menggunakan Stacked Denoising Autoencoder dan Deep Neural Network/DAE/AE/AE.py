@@ -39,7 +39,7 @@ plt.title('model loss')
 plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train'], loc='upper right')
-plt.savefig('data/plotlossae50.png')
+plt.savefig('data/plotlossae.png')
 plt.show()
 
 encoded_imgs = encoder.predict(x_test)
